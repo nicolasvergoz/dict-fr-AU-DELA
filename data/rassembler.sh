@@ -5,12 +5,13 @@
 
 main()
 {
-    cat expressions/* mots/* noms/* verbes/* \
+    echo "word,lemme,category" > dict-fr-AU-DELA.csv
+    cat mots/* verbes/* \
     | sort \
-    | sed	-e "s/\([-,.]\)/\\\\\1/g" \
+    | sed	-e "s/\([,.]\)/\\\\\1/g" \
             -e "s/|/,/" \
-            -e "s/|/./" \
-    > dict-fr-AU-DELA
+            -e "s/|/,/" \
+    >> dict-fr-AU-DELA.csv
 }
 
 main

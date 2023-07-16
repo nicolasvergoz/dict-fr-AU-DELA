@@ -3,7 +3,7 @@
 # License: 3-clause BSD (see https://opensource.org/licenses/BSD-3-Clause)
 # Author: Hubert Tournier
 
-TMPFILE=${TMP}/formats.$$
+TMPFILE=./${TMP}/formats.$$
 
 AU_DELA=dict-fr-AU-DELA
 
@@ -23,7 +23,7 @@ UnEscape()
 
 RemoveDuplicatedLines()
 {
-    for DIRECTORY in expressions mots noms
+    for DIRECTORY in mots
     do
         for FILE in ${DIRECTORY}/*
         do

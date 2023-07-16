@@ -1,11 +1,3 @@
-kaoliniser||V:W
-karstifier||V:W
-kératiniser||V:W
-knockouter||V:W
-knouter||V:W
-kidnapper||V+z1:W
-klaxonner||V+z1:W
-kilométrer||V+z2:W
 kaoliniserions|kaoliniser|V:C1p
 kaoliniserais|kaoliniser|V:C1s:C2s
 kaoliniseriez|kaoliniser|V:C2p
@@ -310,3 +302,11 @@ knoutassiez|knouter|V:T2p
 knoutasses|knouter|V:T2s
 knoutassent|knouter|V:T3p
 knoutât|knouter|V:T3s
+kidnapper||V+z1:W
+klaxonner||V+z1:W
+kilométrer||V+z2:W
+kaoliniser||V:W
+karstifier||V:W
+kératiniser||V:W
+knockouter||V:W
+knouter||V:W
